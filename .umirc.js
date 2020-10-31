@@ -117,6 +117,10 @@ let mpaConfig = getEntry(CONFIG.entry);
 // }
 
 export default {
+  // 这两行配置一下可以用来蹭github page
+  publicPath: './',
+  outputPath: './doc',
+  
   plugins: [
     // @TODO 打包配置相关
     // ['./dist/index', {
